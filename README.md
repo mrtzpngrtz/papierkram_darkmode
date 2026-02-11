@@ -41,7 +41,7 @@ A small content script listens for your toggle preference (stored via `chrome.st
 | `popup.js` | Popup logic and state management |
 | `popup.css` | Popup styling |
 | `icon*.png` | Extension icons (16, 48, 128px) |
-| `privacy-policy.html` | Privacy policy |
+| `PRIVACY-POLICY.md` | Privacy policy |
 
 ## Permissions
 
