@@ -50,7 +50,7 @@ A small content script listens for your toggle preference (stored via `chrome.st
 | `storage` | Save your dark mode on/off preference locally |
 | Content script on `*.papierkram.de` | Inject dark mode styles into Papierkram pages |
 
-No data is collected, transmitted, or shared. See the full [Privacy Policy](privacy-policy.html).
+No data is collected, transmitted, or shared. See the full [Privacy Policy](PRIVACY-POLICY.md).
 
 ## Disclaimer
 
