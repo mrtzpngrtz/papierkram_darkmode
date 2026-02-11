@@ -1,0 +1,26 @@
+/* Smart Dark Mode for Papierkram.de */
+
+html.pk-dark-mode {
+    filter: invert(1) hue-rotate(180deg) !important;
+    height: 100%;
+    background-color: #fafafa; /* Inverted this will be dark */
+}
+
+/* Revert media and other elements that should keep original colors */
+html.pk-dark-mode img, 
+html.pk-dark-mode video, 
+html.pk-dark-mode iframe, 
+html.pk-dark-mode canvas, 
+html.pk-dark-mode svg image,
+html.pk-dark-mode [style*="background-image"] {
+    filter: invert(1) hue-rotate(180deg) !important;
+}
+
+/* Optional: Improve contrast for specific elements if needed */
+html.pk-dark-mode ::-webkit-scrollbar {
+    background-color: #222;
+}
+
+html.pk-dark-mode ::-webkit-scrollbar-thumb {
+    background-color: #555;
+}
